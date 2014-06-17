@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2014-05-27 16:36:36
+  open: 9.99
+  close: 9.99
+  min: 9.99
+  max: 9.99
+  volbtc: 9.99
+  voldol: 9.99
+
+two:
+  date: 2014-05-27 16:36:36
+  open: 9.99
+  close: 9.99
+  min: 9.99
+  max: 9.99
+  volbtc: 9.99
+  voldol: 9.99
