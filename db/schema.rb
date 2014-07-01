@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20140527143635) do
 
   create_table "data", force: true do |t|
-    t.datetime "date"
+    t.decimal  "date"
     t.decimal  "open"
     t.decimal  "close"
     t.decimal  "min"

@@ -5,6 +5,6 @@ class DataController < ApplicationController
   
   
   def getData
-    render json: Datum.where(:date=>DateTime.strptime(params[:from],"%s")..DateTime.strptime(params[:to],"%s"))
+    render json: Datum.where(:date=>params[:from]..params[:to])
   end
 end
