@@ -1,5 +1,8 @@
 <h1>Data#view</h1>
 <p>Find me in app/views/data/view.html.erb</p>
-<script><%= "candleData=#{@script.to_json}".html_safe %></script>
+<script><%= "candleData=#{to_jsArray(@data)}".html_safe %>
+	
+	alert(candleData);
+</script>
 <div id="TestGraph">
 	</div>

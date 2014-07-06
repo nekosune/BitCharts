@@ -64,4 +64,4 @@ $(document).ready ->
         [4,70,80]]
   g = new Dygraph(placeholder,
                 candleData,
-                {plotter: candlePlotter })
+                {plotter: candlePlotter,labels: [ "dateTime", "Open", "Close","Min","Max" ] })
